@@ -3,3 +3,9 @@
 Enter your custom bootstrap code below this comment
 */
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.carousel-caption {
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+}
