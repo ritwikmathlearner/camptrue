@@ -1,3 +1,20 @@
 @media only screen and (min-width: 993px) {
-  
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        font-size: 0.85rem;
+      }
+    }
+  }
+
+  .camps {
+
+    .camp {
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: #333 0 5px 10px;
+      }
+    }
+  }
 }

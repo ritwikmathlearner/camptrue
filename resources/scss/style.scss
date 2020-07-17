@@ -1,49 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ranchers&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ranchers&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-.navbar-brand {
-    font-family: 'Ranchers', cursive;
+.primary-heading {
+  font-family: 'Anton', sans-serif;
+}
+
+.offer {
+  font-size: 0.75rem;
+
+  &::before {
+    content: "offer";
+    padding: 0.25rem;
+    background: #FFDF00;
+    margin-right: 0.15rem;
+    border-radius: 0.25rem;
+    color: #fff;
+  }
+}
+
+.navbar {
+  .navbar-brand {
+    font-family: "Ranchers", cursive;
     font-size: 1.5rem;
+  }
 }
 
 .hero {
-    .carousel {
-
-        .carousel-inner {
-    
-            .carousel-item {
-    
-                img {
-                    object-fit: cover;
-                    max-height: 100vh;
-                }
-            }
+  .carousel {
+    .carousel-inner {
+      .carousel-item {
+        img {
+          object-fit: cover;
+          max-height: 100vh;
         }
+      }
     }
+  }
 }
 
 .features {
-    padding: 1rem 0;
+  padding: 1rem 0;
 
-    .feature {
-        width: 100%;
+  .feature {
+    width: 100%;
 
-        img {
-            height: 100px;
-        }
-
-        p {
-            text-align: justify;
-        }
+    img {
+      height: 100px;
     }
+
+    p {
+      text-align: justify;
+    }
+  }
+}
+
+.camps {
+  padding: 1rem;
+
+  .camp {
+    margin: 0 15px;
+  }
 }
 
 @import "./desktop.scss";
