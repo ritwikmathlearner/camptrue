@@ -7172,3 +7172,8 @@ a.text-dark:hover, a.text-dark:focus {
 input::placeholder,
 textarea::placeholder {
   font-size: 0.75rem; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%; }

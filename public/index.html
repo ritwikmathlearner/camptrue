@@ -169,7 +169,7 @@
           Our services
         </h1>
         <p class="text-center my-3">
-          Lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet
         </p>
         <div class="row justify-content-between">
           <div class="camp">
@@ -211,7 +211,7 @@
     <section class="about" id="about">
       <div class="container">
         <h1 class="h1 primary-heading text-center my-0">About Us</h1>
-        <p class="text-center my-3">Lorem ipsum dolor sit amet.</p>
+        <p class="text-center my-3">Lorem ipsum dolor sit amet</p>
         <div class="container">
           <div class="row align-items-center text-justify">
             <div class="col-12 mb-3">
@@ -230,17 +230,105 @@
         </div>
       </div>
     </section>
-    <section class="testimonials" id="testimonials">
+    <section class="testimonials py-3" id="testimonials">
+      <h1 class="h1 primary-heading text-center my-0">Reviews</h1>
+          <p class="text-center my-3">Lorem ipsum dolor sit amet</p>
       <div class="container">
-
+        <div id="carousel-example-1" class="carousel no-flex testimonial-carousel slide carousel-fade text-center" data-ride="carousel"
+      data-interval="false">
+      <div class="carousel-inner  w-50 m-auto" role="listbox">
+        <div class="carousel-item active">
+          <div class="testimonial">
+            <div class="avatar mx-auto mb-4">
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(30).jpg" class="rounded-circle img-fluid"
+                alt="First sample avatar image">
+            </div>
+            <p>
+              <i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
+              eos
+              id officiis hic tenetur quae quaerat ad velit ab. Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit. Dolore cum accusamus eveniet molestias voluptatum inventore laboriosam labore
+              sit, aspernatur praesentium iste impedit quidem dolor veniam.
+            </p>
+            <h4 class="font-weight-bold">Anna Deynah</h4>
+            <h6 class="font-weight-bold my-3">Founder at ET Company</h6>
+            <div class="text-primary">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial">
+            <div class="avatar mx-auto mb-4">
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" class="rounded-circle img-fluid"
+                alt="Second sample avatar image">
+            </div>
+            <p>
+              <i class="fas fa-quote-left"></i> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+              odit
+              aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+              porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+              non numquam eius modi tempora incidunt ut labore. </p>
+            <h4 class="font-weight-bold">Maria Kate</h4>
+            <h6 class="font-weight-bold my-3">Photographer at Studio LA</h6>
+            <div class="text-primary">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial">
+            <div class="avatar mx-auto mb-4">
+              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg" class="rounded-circle img-fluid"
+                alt="Third sample avatar image">
+            </div>
+            <p>
+              <i class="fas fa-quote-left"></i> Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+              error sit voluptatem accusantium doloremque laudantium.</p>
+            <h4 class="font-weight-bold">John Doe</h4>
+            <h6 class="font-weight-bold my-3">Front-end Developer in NY</h6>
+            <div class="text-primary">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev left carousel-control" href="#carousel-example-1" role="button"
+        data-slide="prev">
+        <div class="text-dark slider-arrow">
+          <i class="fas fa-arrow-alt-circle-left"></i>
+        </div>
+      </a>
+      <a class="carousel-control-next right carousel-control" href="#carousel-example-1" role="button"
+        data-slide="next">
+        <div class="text-dark slider-arrow">
+          <i class="fas fa-arrow-alt-circle-right"></i>
+        </div>
+      </a>
+    </div>
+  </div>
       </div>
     </section>
     <section class="contact py-3" id="contact">
       <h1 class="h1 primary-heading text-center my-0">Contact Us</h1>
-        <p class="text-center my-3">Lorem ipsum dolor sit amet.</p>
+        <p class="text-center my-3">Lorem ipsum dolor sit amet</p>
       <div class="container">
         <div class="row align-items-center">
-          <form class="col-12 col-md-6">
+          <form class="col-12 col-md-6" action="#" method="POST" onsubmit="event.preventDefault(); contactFormSubmit()">
             <div class="form-group">
               <label for="full-name">Full name</label>
               <input type="text" class="form-control" id="full-name" placeholder="Enter your full name">
@@ -270,6 +358,32 @@
         </div>
       </div>
     </section>
+    <footer class="bg-secondary text-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 d-flex flex-column">
+            <p class="text-bold text-uppercase">About CampTrue</p>
+            <a href="#about" class="text-light footer-link">About us</a>
+            <a href="#" class="text-light footer-link">We are hiring</a>
+            <a href="#testimonials" class="text-light footer-link">CampTrue reviews</a>
+            <a href="#" class="text-light footer-link">Terms and conditions</a>
+            <a href="#" class="text-light footer-link">Support</a>
+          </div>
+          <div class="col-12 col-md-4 d-flex flex-column">
+            <p class="text-bold text-uppercase">For supplies</p>
+            <a href="#" class="text-light footer-link">List your activities</a>
+            <p class="text-bold text-uppercase">For brands</p>
+            <a href="#" class="text-light footer-link">partner with us</a>
+            <a href="#" class="text-light footer-link">Destination marketing</a>
+          </div>
+          <div class="col-12 col-md-4 d-flex flex-column">
+            <p class="text-bold text-uppercase">For travellers</p>
+            <a href="#" class="text-light footer-link">Gopro passport program</a>
+            <a href="#" class="text-light footer-link">gift an experience</a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="./js/app.min.js"></script>
     <script src="./js/jquery.min.js"></script>
     <script src="./js/popper.min.js"></script>

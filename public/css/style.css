@@ -48,6 +48,20 @@ body {
   .about img {
     width: 100%; }
 
+footer p {
+  margin: 0.5rem 0; }
+
+footer .footer-link {
+  font-size: 0.75rem;
+  margin: 0.25rem 0;
+  text-transform: uppercase; }
+
+.carousel-control-prev-icon {
+  color: black; }
+
+.slider-arrow {
+  font-size: 3rem; }
+
 @media only screen and (min-width: 993px) {
   .navbar-nav .nav-item .nav-link {
     font-size: 0.85rem; }
@@ -66,4 +80,7 @@ body {
     .camp:nth-last-of-type(2) {
       margin: 1rem 0; }
   .about .space-top {
-    margin-top: 15px; } }
+    margin-top: 15px; }
+  footer .row {
+    font-size: 0.65rem;
+    text-align: center; } }

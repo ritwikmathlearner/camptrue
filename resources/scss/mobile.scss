@@ -1,19 +1,25 @@
 @media only screen and (max-width: 576px) {
   .camp {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
 
-      &:nth-last-of-type(2) {
-          margin: 1rem 0;
-      }
+    &:nth-last-of-type(2) {
+      margin: 1rem 0;
+    }
   }
 
   .about {
-      
     .space-top {
-        margin-top: 15px;
+      margin-top: 15px;
+    }
+  }
+
+  footer {
+    .row {
+      font-size: 0.65rem;
+      text-align: center;
     }
   }
 }

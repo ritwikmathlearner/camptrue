@@ -79,6 +79,25 @@ body {
   }
 }
 
+footer {
+  p {
+    margin: 0.5rem 0;
+  }
+  .footer-link {
+    font-size: 0.75rem;
+    margin: 0.25rem 0;
+    text-transform: uppercase;
+  }
+}
+
+.carousel-control-prev-icon {
+  color: black;
+}
+
+.slider-arrow {
+  font-size: 3rem;
+}
+
 @import "./desktop.scss";
 @import "./tablet.scss";
 @import "./mobile.scss";
