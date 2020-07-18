@@ -6,7 +6,8 @@
   box-sizing: border-box; }
 
 body {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  color: #1E1F1E; }
 
 .primary-heading {
   font-family: 'Anton', sans-serif; }
@@ -24,6 +25,11 @@ body {
 .navbar .navbar-brand {
   font-family: "Ranchers", cursive;
   font-size: 1.5rem; }
+
+.navbar .nav-link {
+  transition: all 0.2s ease-in-out; }
+  .navbar .nav-link.active, .navbar .nav-link:hover {
+    color: #edf5e1 !important; }
 
 .hero .carousel .carousel-inner .carousel-item img {
   object-fit: cover;

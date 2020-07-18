@@ -1,6 +1,13 @@
 /*
 Enter your custom bootstrap code below this comment
 */
+$theme-colors: (
+  "primary": #05386B,
+  "dark": #1E1F1E,
+  "success": #5CDB95,
+  "light": #edf5e1,
+  "crayola": #F7C548
+);
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 .carousel-caption {
