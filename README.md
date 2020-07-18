@@ -4,4 +4,4 @@
 
 [Bootstrap Envrionment](https://github.com/ritwikmathlearner/Bootstrap-Envrionment)
 
-![Screenshot](image.jpg)
+![Screenshot](https://github.com/ritwikmathlearner/camptrue/blob/master/resources/img/screenshot.png?raw=true)
