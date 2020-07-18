@@ -64,10 +64,18 @@ body {
 }
 
 .camps {
-  padding: 1rem;
+  padding: 1rem 0;
 
   .camp {
     margin: 0 15px;
+  }
+}
+
+.about {
+  padding: 1rem 0;
+
+  img {
+    width: 100%;
   }
 }
 

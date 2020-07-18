@@ -1,11 +1,15 @@
-
 /*
 Enter your custom bootstrap code below this comment
 */
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 .carousel-caption {
-    left: 50%;
-    top: 55%;
-    transform: translate(-50%, -50%);
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 0.75rem;
 }

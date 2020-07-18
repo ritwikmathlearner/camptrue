@@ -39,9 +39,14 @@ body {
       text-align: justify; }
 
 .camps {
-  padding: 1rem; }
+  padding: 1rem 0; }
   .camps .camp {
     margin: 0 15px; }
+
+.about {
+  padding: 1rem 0; }
+  .about img {
+    width: 100%; }
 
 @media only screen and (min-width: 993px) {
   .navbar-nav .nav-item .nav-link {
@@ -59,4 +64,6 @@ body {
     justify-content: center;
     margin: 0; }
     .camp:nth-last-of-type(2) {
-      margin: 1rem 0; } }
+      margin: 1rem 0; }
+  .about .space-top {
+    margin-top: 15px; } }
